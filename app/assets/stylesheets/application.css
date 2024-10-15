@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+:root {
+  --swiper-navigation-color: #fff;
+  --swiper-pagination-color: #fff;
+}
